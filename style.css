@@ -11,5 +11,38 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #5F7161;
 }
 
+#app {
+    color: #FEF5ED;
+}
+
+#search {
+    background-color: #5E454B;
+    color: #F3F1F5;
+}
+
+#search:hover {
+    background-color: #A0937D;
+}
+
+#reload {
+    padding: 7px 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #C8DBBE;
+}
+
+#reload:hover {
+    background-color: #9E7540;
+}
+p {
+    color: black;
+    font-size: 28PX;
+ }
+
+ #image {
+    width: 150%;
+    margin-left: -20px;
+ }

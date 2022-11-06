@@ -43,7 +43,7 @@ const showWeather = (res) => {
     app.innerHTML = "";
     app.innerHTML += '<p>' + res.name.toUpperCase() + '</p>'; 
     app.innerHTML += '<img id="image" src="'+ iconurl +'">'
-    app.innerHTML += '<p>' + res.main.temp.toFixed(0) + '</p>'; 
+    app.innerHTML += '<p>' + res.main.temp.toFixed(0) + ' ' +'C°' + '</p>'; 
     app.innerHTML += '<button id="reload">Try</button>';
     document.querySelector('#reload').onclick = () => {
         location.reload();
